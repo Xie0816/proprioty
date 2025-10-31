@@ -1,0 +1,12 @@
+{
+  "class_mapping": {
+    "Dirt_Road": 0,
+    "Asphalt_Road": 1,
+    "Cement_Road": 2,
+    "Gravel_Road": 3
+  },
+  "kernel": "rbf",
+  "C": 1.0,
+  "gamma": "scale",
+  "is_fitted": true
+}

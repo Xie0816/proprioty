@@ -1,0 +1,53 @@
+{
+  "train_label_distribution": {
+    "0": 15334,
+    "3": 17946,
+    "1": 5719,
+    "2": 3376
+  },
+  "val_label_distribution": {
+    "2": 839,
+    "3": 4571,
+    "1": 1424,
+    "0": 3760
+  },
+  "train_samples": 42375,
+  "val_samples": 10594,
+  "hyperparameters": {
+    "feature_dim": 18,
+    "time_steps": 50,
+    "output_size": 4,
+    "attention_dim": 64,
+    "hidden_sizes": [
+      128,
+      64,
+      32
+    ],
+    "dropout_rate": 0.1,
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "num_epochs": 100,
+    "optimizer": "Adam",
+    "scheduler": "StepLR",
+    "weight_decay": 1e-05,
+    "criterion": "CrossEntropyLoss"
+  },
+  "class_accuracy": {
+    "类别_0": 96.12,
+    "类别_1": 98.74,
+    "类别_2": 90.94,
+    "类别_3": 98.1
+  },
+  "final_val_accuracy": 96.91,
+  "final_train_accuracy": 95.13,
+  "best_val_accuracy": 96.95,
+  "final_val_loss": 0.089404,
+  "final_train_loss": 0.125125,
+  "class_mapping": {
+    "Dirt_Road": 0,
+    "Asphalt_Road": 1,
+    "Cement_Road": 2,
+    "Gravel_Road": 3
+  },
+  "timestamp": "2025-10-17T07:01:13"
+}

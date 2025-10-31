@@ -1,0 +1,37 @@
+{
+  "best_val_accuracy": 88.54853911404335,
+  "final_train_accuracy": 87.43343230123945,
+  "final_val_accuracy": 88.39773798303487,
+  "final_train_loss": 0.32769098550013875,
+  "final_val_loss": 0.2923263296125883,
+  "class_mapping": {
+    "Dirt_Road": 0,
+    "Asphalt_Road": 1,
+    "Cement_Road": 2,
+    "Gravel_Road": 3
+  },
+  "input_size": 21,
+  "output_size": 4,
+  "train_samples": 42438,
+  "val_samples": 10610,
+  "total_epochs": 100,
+  "timestamp": "2025-10-16T13:58:06",
+  "class_accuracy": {
+    "\u7c7b\u522b_0": 88.36,
+    "\u7c7b\u522b_1": 93.09,
+    "\u7c7b\u522b_2": 51.56,
+    "\u7c7b\u522b_3": 94.53
+  },
+  "train_label_distribution": {
+    "0": 15273,
+    "3": 18109,
+    "1": 5715,
+    "2": 3341
+  },
+  "val_label_distribution": {
+    "0": 3918,
+    "2": 867,
+    "3": 4406,
+    "1": 1419
+  }
+}

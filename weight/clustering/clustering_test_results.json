@@ -1,0 +1,48 @@
+{
+  "train_label_distribution": {
+    "类别_0": 15390,
+    "类别_3": 17950,
+    "类别_1": 5725,
+    "类别_2": 3373
+  },
+  "val_label_distribution": {
+    "类别_0": 3801,
+    "类别_3": 4565,
+    "类别_2": 835,
+    "类别_1": 1409
+  },
+  "train_samples": 42438,
+  "val_samples": 10610,
+  "hyperparameters": {
+    "n_clusters": 8,
+    "hidden_sizes": [
+      128,
+      64,
+      32
+    ],
+    "output_size": 4,
+    "dropout_rate": 0.1,
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "num_epochs": 100,
+    "optimizer": "Adam",
+    "scheduler": "StepLR"
+  },
+  "class_accuracy": {
+    "类别_0": 84.14,
+    "类别_1": 92.26,
+    "类别_2": 56.65,
+    "类别_3": 93.41
+  },
+  "final_val_accuracy": 87.04052780395853,
+  "final_train_accuracy": 85.2891276685989,
+  "class_mapping": {
+    "Dirt_Road": 0,
+    "Asphalt_Road": 1,
+    "Cement_Road": 2,
+    "Gravel_Road": 3
+  },
+  "input_size": 21,
+  "cluster_feature_dim": 16,
+  "timestamp": "2025-10-17T06:54:10"
+}

@@ -1,0 +1,40 @@
+{
+  "train_label_distribution": {
+    "类别_1": 5724,
+    "类别_3": 18049,
+    "类别_0": 15311,
+    "类别_2": 3354
+  },
+  "val_label_distribution": {
+    "类别_0": 3880,
+    "类别_3": 4466,
+    "类别_2": 854,
+    "类别_1": 1410
+  },
+  "train_samples": 42438,
+  "val_samples": 10610,
+  "hyperparameters": {
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": "scale",
+    "probability": true,
+    "random_state": 42
+  },
+  "class_accuracy": {
+    "类别_0": 51.83,
+    "类别_1": 81.06,
+    "类别_2": 0.0,
+    "类别_3": 97.31
+  },
+  "final_val_accuracy": 0.706880301602262,
+  "final_train_accuracy": 0.7049106932466186,
+  "class_mapping": {
+    "Dirt_Road": 0,
+    "Asphalt_Road": 1,
+    "Cement_Road": 2,
+    "Gravel_Road": 3
+  },
+  "feature_dim": 21,
+  "num_classes": 4,
+  "timestamp": "2025-10-17T06:42:53"
+}
